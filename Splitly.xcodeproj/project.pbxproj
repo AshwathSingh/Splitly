@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		100704D42E1A9CE400AEC5B4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100704D32E1A9CE400AEC5B4 /* Home.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		1050AD3F2E19B0EA008BFE8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		100704D32E1A9CE400AEC5B4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		1050AD312E19B0E9008BFE8A /* Splitly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Splitly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1050AD3E2E19B0EA008BFE8A /* SplitlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1050AD482E19B0EA008BFE8A /* SplitlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,9 +77,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		100704D22E1A9CD500AEC5B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				100704D32E1A9CE400AEC5B4 /* Home.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		1050AD282E19B0E9008BFE8A = {
 			isa = PBXGroup;
 			children = (
+				100704D22E1A9CD500AEC5B4 /* Views */,
 				1050AD332E19B0E9008BFE8A /* Splitly */,
 				1050AD412E19B0EA008BFE8A /* SplitlyTests */,
 				1050AD4B2E19B0EA008BFE8A /* SplitlyUITests */,
@@ -236,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100704D42E1A9CE400AEC5B4 /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
