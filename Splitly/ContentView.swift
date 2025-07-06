@@ -10,12 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack {
-            TabView {
-                Tab("Add a split", systemImage: "pencil.line") {
-                    Home()
-                }
-                Tab("Your Splits", systemImage: "list.bullet") {
-                    
+            ZStack {
+                TabView {
+                    Tab("Add a split", systemImage: "pencil.line") {
+                        Home()
+                    }
+                    Tab("Your Splits", systemImage: "list.bullet") {
+                        Bills()
+                    }
                 }
             }
         }

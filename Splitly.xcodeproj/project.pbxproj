@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		100704D42E1A9CE400AEC5B4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100704D32E1A9CE400AEC5B4 /* Home.swift */; };
+		100704D62E1AAC7E00AEC5B4 /* Bills.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100704D52E1AAC7E00AEC5B4 /* Bills.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		100704D32E1A9CE400AEC5B4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		100704D52E1AAC7E00AEC5B4 /* Bills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bills.swift; sourceTree = "<group>"; };
 		1050AD312E19B0E9008BFE8A /* Splitly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Splitly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1050AD3E2E19B0EA008BFE8A /* SplitlyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitlyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1050AD482E19B0EA008BFE8A /* SplitlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				100704D32E1A9CE400AEC5B4 /* Home.swift */,
+				100704D52E1AAC7E00AEC5B4 /* Bills.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100704D62E1AAC7E00AEC5B4 /* Bills.swift in Sources */,
 				100704D42E1A9CE400AEC5B4 /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
